@@ -1,0 +1,364 @@
+*{
+    text-decoration: none !important;
+}
+img ,textarea{
+    width: 100%;
+}
+/* start heading section */
+.header{
+    background:url(../images/bg-01.jpg) no-repeat center center;
+    height:465px;
+}
+.navbar .navbar-brand{
+    text-transform: uppercase;
+    color: #9597A5;
+    font-size: 25px;
+    font-weight: 500;
+}
+.navbar span{
+    color: #1E9CAD;
+}
+
+.navbar-nav .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar-nav .nav-link:hover{
+    color: #9597A5;
+}
+hr{
+    background-color: #404447;
+    margin: 0;
+}
+.info{
+    margin:87px
+}
+.info h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: bold;
+}
+.info p{
+    color: #97989b;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.info a{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #97989b;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.info a:hover{
+    background-color: #000;
+
+    border: none;
+}
+/* end heading section */
+
+/* start artical section */
+
+.artical{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FAFAFA;
+    padding-right: 70px;
+}
+.details{
+    border-right: 1px solid #d3cccc;
+    border-bottom: 1px solid #d3cccc;
+    background-color: #fff;
+    padding: 30px 30px 0 30px;
+
+}
+.details i{
+    color:#7a7373 ;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.details h5{
+    font-size: 17px;
+}
+.details p{
+    font-size: 10px;
+    color: #97989b;
+}
+.b-right{
+    border-right: none;
+}
+.b-bottom{
+    border-bottom: none;
+}
+
+/* start artical section */
+
+/* start product section  */
+
+.product{
+    padding-top: 50px;
+}
+.product img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.product h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.product .product-p, .product p{
+    color: #a6a9ac;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.product h5{
+    display: inline-block;
+    font-weight: bold;
+}
+.product span{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #bec1c4;
+}
+.product p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.product a{
+    color: #828491;
+}
+.product a:hover{
+    color: #fff;
+    background-color: #828491;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+/* end product section  */
+
+/* start sponsers section */
+
+.sponsers{
+    margin-top: 65px;
+    background-color: #FAFAFA;
+    padding:60px
+}
+.sponsers img{
+    max-width: 100%;
+}
+
+/* end sponsers section */
+
+/* start reviews section */
+
+.reviews{
+    padding-top: 50px;
+}
+.reviews h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.reviews .lead{
+    margin-left: 50px;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+}
+.reviews h5{
+    margin-left: 50px;
+    font-size: 11px;
+    color: #828284;
+}
+.reviews span{
+    color: #bec1c8;
+}
+
+/* end reviews section */
+
+/* start persone fontawsome */
+
+.persone{
+    margin-top: 50px;    
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+article{
+    text-align: center;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 35px 35px 80px;
+}
+article i{
+    border: 1px dotted black;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 9px;
+}
+article h4{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+article span{
+    color: #b0afaf;
+    font-size: 12px;
+    font-weight: 400;
+}
+article p{
+    text-align: left;
+    font-size: 11px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    color: #a19d9b;
+}
+article h5{
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #a19d9b;
+    border-bottom: 1px dashed #a19d9b;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+}
+article a{
+    background-color: #F3F4F6;
+    color: #000;
+    padding: 11px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    float: left;
+    margin-top: 15px;
+}
+
+/* end persone fontawsome */
+
+/* start client section  */
+
+.client-info{
+    margin-top: 50px;
+}
+.client img{
+    width: 100%;
+    height: 247px;
+}
+.client h5{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.client p{
+    font-size: 12px;
+    text-align: justify;
+    color: #7a7979;
+}
+
+/* end client section  */
+
+/* start showcase section */
+
+.showcase{
+    background-color: #FAFAFA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.showcase h3{
+    font-weight: bold;
+    margin-left: -13px;
+    margin-bottom: 20px;
+}
+.showcase p{
+    color: #7a7979;
+    line-height: 20px;
+    margin-left: -13px;
+    font-size: 14px;
+    margin-bottom: 35px;
+
+}
+.showcase .pic{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../images/cases-01.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.showcase img{
+    max-width: 100%;
+}
+.img-height{
+    height: 250px;
+}
+
+/* end showcase section */
+
+/* start footer section  */
+
+.footer{
+    background: url(../images/bg-02.jpg);
+    background-size: cover;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer input{
+    width: 100%;
+    margin-bottom: 18px;
+    border: none;
+    background-color:rgba(43, 47, 50,.3) ;
+}
+.footer p{
+    color: #C1CAD7;
+    text-transform: capitalize;
+}
+.footer p:hover{
+    color: #fff;
+}
+textarea{
+    background-color:rgba(43, 47, 50,.3) ;
+    border: none;
+    color: #6c757d;
+}
+.footer button{
+    display: block;
+    background-color: #17BED1;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.footer button:hover{
+    background-color: #6c757d;
+}
+.footer hr{
+    background: #6c757d;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+.footer span{
+    color:#17BED1; 
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+}
+
+
+
+
+
+/* end footer section  */

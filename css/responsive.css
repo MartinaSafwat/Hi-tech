@@ -1,0 +1,117 @@
+
+/* small device */
+
+@media(min-width:300px) and (max-width:767px){
+    .navbar .navbar-brand {
+        font-size: 17px;
+    }
+    .info{
+        margin: 38px;
+    }
+    .info h1{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .info p{
+        font-size: 13px;
+    }
+    .details h5{
+        font-size: 20px;
+    }
+    .artical{
+        padding-right: 0;
+    }
+    .details {
+        border-right: 0;
+    }
+    .b-bottom{
+        border-bottom: 1px solid #d3cccc;
+    }
+    .product img {
+        margin-top: 15px;
+    }
+    .showcase .pic{
+        height: 245px;
+        width: 100%;
+    }
+    .showcase h3,.showcase p{
+        margin-left: 0;
+    }
+    .p-left{
+        padding:0
+    }
+    .img-height{
+        margin-bottom:10px
+    }
+    .mb-10{
+        margin-bottom: 10px;
+    }
+    .persone{
+        padding-left: 0;
+    }
+    article{
+        width: 60%;
+        margin: 7px auto;
+    }
+
+}
+
+
+/* medium device */
+
+@media(min-width:768px){
+    .bg-dark{
+        background-color: transparent !important;
+        position: static  !important;
+    }
+    .height{
+        margin-top: 0px;
+        height: 106%;
+    }
+    .ml-29{
+        margin-left: -25px;
+    }
+    .p-left{
+        padding:0 1px
+    }
+    .details h5{
+        font-size: 11px;
+    }
+    article{
+        padding:35px 15px 80px; ;
+    }
+    article h4{
+        font-size: 16px;
+    }
+    .client img {
+        height: 265px;
+    }
+    .product span{
+        text-align: left;
+        display: block;
+        margin-left: 0;
+    }
+   
+}
+
+
+/* large device */
+
+@media(min-width:992px){
+    .details h5{
+        font-size: 17px;
+    }
+    .product span{
+        text-align: right;
+        display: inline;
+        margin-left: 20px;
+    }
+  
+}
+
+
+/* extra large device */
+
+@media(min-wedith:1200px){
+    
+}
